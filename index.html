@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="fb6afb22-5bbf-45b3-8fda-de046e56f2cf" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1147">
+          {"d7562087-5f68-4e73-b29c-29b143b298ad":{"roots":{"references":[{"attributes":{"label":{"field":"Book"},"renderers":[{"id":"1037"}]},"id":"1048","type":"LegendItem"},{"attributes":{"items":[{"id":"1048"}]},"id":"1047","type":"Legend"},{"attributes":{"callback":null,"tooltips":"\n&lt;div&gt;\n    &lt;h3&gt;@Book&lt;/h3&gt;\n    &lt;div&gt;&lt;strong&gt;Author: &lt;/strong&gt;@Author&lt;/div&gt;\n    &lt;div&gt;&lt;strong&gt;First Published: &lt;/strong&gt;@First_published&lt;/div&gt;\n    &lt;div&gt;&lt;strong&gt;Sales in millions: &lt;/strong&gt;@Sales_million&lt;/div&gt;\n    &lt;div&gt;&lt;img src=\"@Image\" alt=\"\" width=\"250\" /&gt;&lt;/div&gt;  \n&lt;/div&gt;\n"},"id":"1049","type":"HoverTool"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1019"},{"id":"1047"}],"left":[{"id":"1017"}],"margin":[100,100,100,100],"plot_height":1100,"plot_width":900,"renderers":[{"id":"1037"}],"title":{"id":"1003"},"toolbar":{"id":"1027"},"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"Approximate Sales","formatter":{"id":"1042"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{"data":{"Author":["Charles Dickens","Antoine de Saint-Exup\u00e9ry","J. K. Rowling","J. R. R. Tolkien","Agatha Christie","Cao Xueqin"],"Book":["A Tale of Two Cities","The Little Prince (Le Petit Prince)","Harry Potter and the Philosopher's Stone","The Hobbit","And Then There Were None","Dream of the Red Chamber"],"First_published":[1859,1943,1997,1937,1939,1791],"Genre":["Historical fiction","Fantasy (picture book)","fantasy, Mystery","Fantasy","Mystery","Family Saga"],"Image":["https://upload.wikimedia.org/wikipedia/commons/3/3c/Tales_serial.jpg","https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG","https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg/220px-Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg","https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/TheHobbit_FirstEdition.jpg/220px-TheHobbit_FirstEdition.jpg","https://upload.wikimedia.org/wikipedia/en/2/26/And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hongloumeng2.jpg/180px-Hongloumeng2.jpg"],"Original_language":["English","French","English","English","English","Chinese"],"Sales_million":[200,150,120,100,100,100],"index":[0,1,2,3,4,5]},"selected":{"id":"1045"},"selection_policy":{"id":"1044"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1018","type":"CategoricalTicker"},{"attributes":{"source":{"id":"1001"}},"id":"1038","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1026","type":"BoxAnnotation"},{"attributes":{"text":"List of Best-Selling Individual Books"},"id":"1003","type":"Title"},{"attributes":{},"id":"1040","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"1040"},"ticker":{"id":"1018"}},"id":"1017","type":"CategoricalAxis"},{"attributes":{"factors":["A Tale of Two Cities","The Little Prince (Le Petit Prince)","Harry Potter and the Philosopher's Stone","The Hobbit","And Then There Were None","Dream of the Red Chamber"]},"id":"1007","type":"FactorRange"},{"attributes":{},"id":"1042","type":"BasicTickFormatter"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.6},"fill_color":{"value":"#53777a"},"height":{"value":0.2},"line_color":{"value":"#53777a"},"right":{"field":"Sales_million"},"y":{"field":"Book"}},"id":"1035","type":"HBar"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1044","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{},"id":"1045","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#53777a"},"height":{"value":0.2},"line_alpha":{"value":0.1},"line_color":{"value":"#53777a"},"right":{"field":"Sales_million"},"y":{"field":"Book"}},"id":"1036","type":"HBar"},{"attributes":{},"id":"1020","type":"PanTool"},{"attributes":{"overlay":{"id":"1026"}},"id":"1021","type":"BoxSelectTool"},{"attributes":{},"id":"1023","type":"ZoomOutTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1049"}]},"id":"1027","type":"Toolbar"},{"attributes":{},"id":"1022","type":"ZoomInTool"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"1035"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1036"},"selection_glyph":null,"view":{"id":"1038"}},"id":"1037","type":"GlyphRenderer"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1147').textContent;
+                  var render_items = [{"docid":"d7562087-5f68-4e73-b29c-29b143b298ad","root_ids":["1002"],"roots":{"1002":"fb6afb22-5bbf-45b3-8fda-de046e56f2cf"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
